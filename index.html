@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+</head>
+<body>
+<header>
+    <div ><img src="img/img.jpg" height="200" width="250"/></div>
+    <p> Lịch sử nón lá Việt Nam </p>
+    <blockquote> Nón lá gần với đời sống tạo nhiều nét bình dị, đoan trang, yêu kiều, duyên dáng
+        cho người con gái Việt Nam và thực tiễn với đời sống nông nghiệp, một nắng hai sương,.
+        Nón lá ở Việt Nam có nhiều loại khác nhau qua từng giai đoạn lịch sử:
+    </blockquote>
+</header>
+<fieldset>
+    <legend>Đăng ký thành viên</legend>
+    <span class="error-msg" id="total-msg"></span>
+    <form class="form-group" name="member">
+        <div class="form-group">
+            <label>Họ và tên: </label>
+            <input type="text" name="name" class="form-control normal-input" placeholder="Họ và tên">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" class="form-control normal-input">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Phone </label>
+            <input type="text" name="phone" class="form-control normal-input" placeholder="Điện thoại">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Giới tính</label>
+            <label>
+                <input type="radio" name="gender" value="Nam" class="form-control"> Nam
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Nữ" class="form-control"> Nữ
+            </label>
+        </div>
+        <p>Sở thích</p>
+        <div class="form-group">
+            <input type="checkbox" id="sothich1" name="sothich1" value="Thể thao">
+            <label for="sothich1"> Thể thao</label><br>
+            <input type="checkbox" id="sothich2" name="sothich2" value="Phim ảnh">
+            <label for="sothich2"> Phim ảnh</label><br>
+            <input type="checkbox" id="sothich3" name="sothich3" value="Đọc sách">
+            <label for="sothich3"> Đọc sách</label><br>
+            <input type="checkbox" id="sothich4" name="sothich4" value="Âm nhạc">
+            <label for="sothich4"> Âm nhạc</label><br>
+            <input type="checkbox" id="sothich5" name="sothich5" value="Khác">
+            <label for="sothich5"> Khác</label><br><br>
+        </div>
+
+        <div class="form-group>
+            <label for=">Giới thiệu bản thân</label>
+            <textarea  name="introduce" rows="4" cols="50">
+            </textarea>
+        </div>
+        <div class="form-group">
+            <label>&nbsp;</label>
+            <input type="button" name="submit" value="Dang ky" class="form-control" id="btnSubmit">
+            <input type="reset" name="reset" value="Lam lai" class="form-control">
+
+        </div>
+    </form>
+</fieldset>
+<script type="text/javascript" src="js/test.js"></script>
+<footer>
+    <p>Tên: Đỗ Thị Thảo</p>
+    <p>Email: thaodtth2108052@fpt.edu.vn</p>
+    <p>Class: T2108A1</p>
+</footer>
+</body>
+</html>
